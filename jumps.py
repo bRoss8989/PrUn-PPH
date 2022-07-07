@@ -13,6 +13,10 @@ dijkstra[start] = 0
 for x in cons[start]:
     nexthop = []
     nexthop = [start] + [x[1]]
+    if x[1] == end:
+        print('1jump')
+        print(nexthop)
+        complete =1
     paths = paths + [nexthop]
     dijkstra[str(x[1])] = 1
 
