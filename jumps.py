@@ -10,6 +10,10 @@ complete = 0
 paths = []
 dijkstra[start] = 0
 
+if start == end:
+    print('already there baby')
+    print(start)
+    complete = 1
 for x in cons[start]:
     nexthop = []
     nexthop = [start] + [x[1]]
