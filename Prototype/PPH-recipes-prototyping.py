@@ -1,5 +1,5 @@
 import time; import json; import pandas as pd; import numpy as np; import copy;
-file = open('systemcons.json','r');cons = json.load(file);file.close()
+
 file2 = open('system.json','r');system_dict = json.load(file2);file2.close()
 file3 = open('starsinfo.json','r');stars_dict = json.load(file3);file3.close()
 file4 = open('materials.json','r');mats_dict = json.load(file4);file4.close()
