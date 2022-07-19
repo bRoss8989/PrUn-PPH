@@ -3,7 +3,7 @@ import time; import json; import pandas as pd; import numpy as np; import copy;
 file2 = open('system.json','r');system_dict = json.load(file2);file2.close()
 file3 = open('starsinfo.json','r');stars_dict = json.load(file3);file3.close()
 file4 = open('materials.json','r');mats_dict = json.load(file4);file4.close()
-file5 = open('starssystem.json','r');stars_system_dict = json.load(file5);file5.close()
+
 file6 = open('recipes-tier1.json','r');recipes_dict = json.load(file6);file6.close()
 matpph_dict = {'H2O_Umbra':44.955982522130846,'H2O_Etherwind':64.2000025510788,'H2O_KW-602c':49.3981248914246,'H2O_Milliways':46.34518442538274}
 matresource_dict = {'H2O_Umbra':'Etherwind','H2O_Etherwind':'Etherwind','H2O_KW-602c':'Etherwind','H2O_Milliways':'Etherwind'}
